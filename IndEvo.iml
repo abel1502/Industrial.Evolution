@@ -31,5 +31,11 @@
     <orderEntry type="library" name="RandomAssortmentofThings" level="application" />
     <orderEntry type="library" name="Kotlin-Runtime" level="application" />
     <orderEntry type="library" name="starfarer_obf" level="application" />
+    <orderEntry type="library" name="starfarer.api" level="project" />
+    <orderEntry type="library" name="commons-compiler" level="project" />
+    <orderEntry type="library" name="LazyLib" level="project" />
+    <orderEntry type="library" name="LunaLib" level="project" />
+    <orderEntry type="library" name="Graphics" level="project" />
+    <orderEntry type="library" name="MagicLib" level="project" />
   </component>
 </module>
