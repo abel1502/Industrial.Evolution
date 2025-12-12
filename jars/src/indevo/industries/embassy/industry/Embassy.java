@@ -41,13 +41,13 @@ public class Embassy extends BaseIndustry implements EconomyTickListener, NewDay
     public FactionAPI alignedFaction = null;
     protected SpecialItemData ambassadorItemData = null;
 
-    public static final float BASE_MAX_RELATION = 0.40f;
+    public static final float BASE_MAX_RELATION = 1.0f;
     public static final float ALPHA_CORE_REP_PENALTY_MULT = 0.50f;
     public static final float BETA_CORE_REP_PENALTY = -0.20f;
-    public static final float BETA_CORE_MAX_RELATION = 0.55f;
+    public static final float BETA_CORE_MAX_RELATION = 1.0f;
     public static final float GAMMA_CORE_UPKEEP_RED_MULT = 0.90f;
 
-    private float maxRelation = 0.40F;
+    private float maxRelation = 1.0f;
     private boolean betaCoreInstalled = false;
 
     private int monthsPassed = 0;
