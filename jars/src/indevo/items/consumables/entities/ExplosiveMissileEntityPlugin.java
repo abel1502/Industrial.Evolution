@@ -44,7 +44,7 @@ public class ExplosiveMissileEntityPlugin extends BaseMissileEntityPlugin {
                         EXPLOSION_SIZE,
                         0.65f);
 
-        params.damage = ExplosionEntityPlugin.ExplosionFleetDamage.LOW;
+        params.damage = ExplosionEntityPlugin.ExplosionFleetDamage.EXTREME;
 
         SectorEntityToken explosion = cl.addCustomEntity(Misc.genUID(), "Explosion",
                 "IndEvo_VariableExplosion", Factions.NEUTRAL, params);
