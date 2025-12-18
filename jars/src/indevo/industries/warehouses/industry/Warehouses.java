@@ -75,8 +75,6 @@ public class Warehouses extends BaseIndustry {
 
     @Override
     public boolean isAvailableToBuild() {
-        if (!Global.getSector().getPlayerFaction().knowsIndustry(getId())) return false; //todo remove this when the industry is ready for release
-
         return super.isAvailableToBuild();
     }
 
